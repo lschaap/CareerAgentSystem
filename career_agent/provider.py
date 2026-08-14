@@ -66,8 +66,13 @@ def analyze_with_gemini(
         ) from exc
     except errors.APIError as exc:
         status = getattr(exc, "code", None)
-        if status in {401, 403}:
+        if status == 401:
             message = "Gemini authentication failed. Check GEMINI_API_KEY and restart the app."
+        elif status == 403:
+            message = (
+                "Gemini denied content-generation access for this API key's project. "
+                "Check the project status in Google AI Studio or contact Google support."
+            )
         elif status == 404:
             message = (
                 f"The configured Gemini model '{model}' is unavailable for this account. "

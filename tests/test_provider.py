@@ -37,3 +37,21 @@ def test_unavailable_model_has_actionable_message() -> None:
         with pytest.raises(AIProviderError, match="GEMINI_MODEL") as exc_info:
             analyze_with_gemini("resume", "job", "fake-key", "retired-model")
     assert "retired-model" in str(exc_info.value)
+
+
+def test_project_access_denial_has_actionable_message() -> None:
+    client = Mock()
+    client.models.generate_content.side_effect = errors.ClientError(
+        403,
+        {
+            "error": {
+                "code": 403,
+                "message": "Your project has been denied access.",
+                "status": "PERMISSION_DENIED",
+            }
+        },
+    )
+    with patch("career_agent.provider.genai.Client", return_value=client):
+        with pytest.raises(AIProviderError, match="project") as exc_info:
+            analyze_with_gemini("resume", "job", "fake-key", "mock-model")
+    assert "Google AI Studio" in str(exc_info.value)
