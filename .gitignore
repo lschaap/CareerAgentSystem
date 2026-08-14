@@ -1,0 +1,42 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local application data and sensitive documents
+data/
+uploads/
+resumes/
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
+*.log
+logs/
+extracted_resume*.txt
+job_description*.txt
+
+# Build artifacts
+build/
+dist/
+
