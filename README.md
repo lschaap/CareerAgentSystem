@@ -121,6 +121,26 @@ python -m ruff format --check .
 
 Automated tests mock all Gemini calls. They never require an API key or consume quota.
 
+## Assessment evaluation
+
+An opt-in evaluation harness uses one fictional resume and six fictional job postings.
+Run one case with one Gemini call:
+
+```powershell
+python -m evaluation.runner --case-id software_implementation_strong
+```
+
+Run all six only with explicit confirmation:
+
+```powershell
+python -m evaluation.runner --all --confirm-all
+```
+
+Repetitions multiply the call count; the runner displays the total before starting.
+Private reports go to ignored `data/evaluations/` and never enter application history.
+See [the evaluation guide](docs/EVALUATION.md) for the human rubric, cost controls, and
+limitations. Automated tests always use a mock provider and consume no Gemini quota.
+
 ## Local data and privacy
 
 Completed analyses are stored by default in `data/career_agent.db`. That directory,

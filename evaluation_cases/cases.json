@@ -1,0 +1,140 @@
+{
+  "candidate_name": "Jordan Rivera",
+  "resume_file": "fictional_resume.txt",
+  "cases": [
+    {
+      "case_id": "software_implementation_strong",
+      "role_family": "Software implementation",
+      "job_description": "Fictional Harbor Systems seeks a Software Implementation Consultant. Required qualifications: three years delivering customer-facing SaaS implementations; requirements discovery; software configuration; data migration; REST API troubleshooting; user acceptance testing; customer training; and clear communication with technical and business stakeholders. The consultant will own projects from discovery through launch, document risks, and coordinate with engineering. Preferred qualifications: Python scripting, SQL, and experience creating adoption reports. A project-management certification is helpful but not required.",
+      "expected_fit_category": "strong",
+      "acceptable_score_range": [75, 95],
+      "acceptable_recommendation_categories": ["strong_apply"],
+      "important_experience": [
+        {"label": "customer SaaS implementations", "terms": ["implementation", "deployment", "launch"]},
+        {"label": "data and API work", "terms": ["data migration", "REST API", "integration"]},
+        {"label": "customer training", "terms": ["training", "user adoption"]}
+      ],
+      "important_required_gaps": [],
+      "preferred_qualifications": [
+        {"label": "project-management certification", "terms": ["project-management certification", "project management certification"]}
+      ],
+      "prohibited_invented_claims": [
+        {"label": "PMP credential", "terms": ["PMP certified", "holds a PMP", "PMP credential"]}
+      ],
+      "expected_judgment": "The candidate directly matches the delivery lifecycle and most preferred technical skills; the optional certification should not materially reduce fit."
+    },
+    {
+      "case_id": "ai_implementation_strong",
+      "role_family": "AI implementation",
+      "job_description": "Fictional Lantern AI is hiring an AI Implementation Specialist to deploy AI-assisted document workflows for business customers. Required: customer discovery, workflow configuration, Python or SQL, API integration, test-plan creation, evaluation of model outputs, launch coordination, training, and the ability to explain AI limitations to nontechnical users. Candidates must recognize uncertainty and escalate quality risks. Preferred: retrieval-assisted search exposure, prompt experimentation, and experience with regulated customers. No production model-training experience is required.",
+      "expected_fit_category": "strong",
+      "acceptable_score_range": [72, 93],
+      "acceptable_recommendation_categories": ["strong_apply"],
+      "important_experience": [
+        {"label": "AI output evaluation", "terms": ["AI", "model output", "evaluation"]},
+        {"label": "workflow implementation", "terms": ["workflow", "implementation", "deployment"]},
+        {"label": "retrieval exposure", "terms": ["retrieval", "knowledge search"]}
+      ],
+      "important_required_gaps": [],
+      "preferred_qualifications": [
+        {"label": "regulated-customer experience", "terms": ["regulated", "compliance"]}
+      ],
+      "prohibited_invented_claims": [
+        {"label": "production model training", "terms": ["trained production models", "production model training", "ML engineer"]}
+      ],
+      "expected_judgment": "The candidate has directly transferable implementation and evaluation experience, with only a preferred regulated-industry uncertainty."
+    },
+    {
+      "case_id": "solutions_consulting_borderline",
+      "role_family": "Solutions consulting",
+      "job_description": "Fictional Meridian Cloud needs a Senior Solutions Consultant. Required: technical discovery, solution design, executive presentations, REST APIs, SQL, and ownership of complex pre-sales demonstrations. Candidates must have at least two years carrying a formal pre-sales quota and must build live product demonstrations for enterprise buying committees. Preferred: SaaS implementation delivery, Python, and experience responding to security questionnaires. The role partners with sales but does not own post-sale deployment.",
+      "expected_fit_category": "borderline",
+      "acceptable_score_range": [48, 72],
+      "acceptable_recommendation_categories": ["conditional_apply"],
+      "important_experience": [
+        {"label": "technical discovery and solution design", "terms": ["discovery", "solution design", "requirements"]},
+        {"label": "stakeholder presentations", "terms": ["presentation", "stakeholder", "communication"]}
+      ],
+      "important_required_gaps": [
+        {"label": "formal pre-sales quota", "terms": ["pre-sales quota", "presales quota", "sales quota"]},
+        {"label": "enterprise demonstrations", "terms": ["demonstration", "demo"]}
+      ],
+      "preferred_qualifications": [
+        {"label": "security questionnaires", "terms": ["security questionnaire"]}
+      ],
+      "prohibited_invented_claims": [
+        {"label": "quota ownership", "terms": ["carried a quota", "quota-carrying", "owned a sales quota"]}
+      ],
+      "expected_judgment": "Consulting and technical skills transfer, but missing required quota-carrying and demonstration evidence makes this a conditional application."
+    },
+    {
+      "case_id": "ai_product_borderline",
+      "role_family": "AI product work",
+      "job_description": "Fictional Orchard Product Studio is seeking an Associate AI Product Manager. Required: user interviews, requirements and acceptance criteria, prioritization, cross-functional work with engineering, analysis of AI output quality, and clear product tradeoff communication. Candidates also need one year with formal product roadmap ownership and experience defining product success metrics. Preferred: SQL, retrieval systems, customer implementation experience, and experimentation design. Direct people management is not required.",
+      "expected_fit_category": "borderline",
+      "acceptable_score_range": [52, 75],
+      "acceptable_recommendation_categories": ["conditional_apply"],
+      "important_experience": [
+        {"label": "product discovery", "terms": ["user interview", "product discovery", "acceptance criteria"]},
+        {"label": "AI quality evaluation", "terms": ["AI", "model output", "evaluation"]}
+      ],
+      "important_required_gaps": [
+        {"label": "formal roadmap ownership", "terms": ["roadmap ownership", "product roadmap"]},
+        {"label": "product success metrics", "terms": ["success metrics", "product metrics"]}
+      ],
+      "preferred_qualifications": [
+        {"label": "experimentation design", "terms": ["experiment design", "experimentation"]}
+      ],
+      "prohibited_invented_claims": [
+        {"label": "product manager title", "terms": ["worked as a product manager", "former product manager"]}
+      ],
+      "expected_judgment": "The candidate has meaningful product-adjacent evidence, but formal roadmap and metric ownership are important unproven requirements."
+    },
+    {
+      "case_id": "technical_consulting_poor",
+      "role_family": "Technical consulting",
+      "job_description": "Fictional Atlas Infrastructure Partners requires a Principal Kubernetes Consultant. Required qualifications: seven years administering production Kubernetes clusters; expert-level Linux networking; Terraform module design; service-mesh operations; incident command for high-severity outages; cloud security architecture; and three years leading infrastructure engineering teams. The consultant will perform cluster migrations and production reliability reviews. Preferred: CKA certification, Go development, and public conference speaking.",
+      "expected_fit_category": "poor",
+      "acceptable_score_range": [5, 35],
+      "acceptable_recommendation_categories": ["do_not_prioritize"],
+      "important_experience": [
+        {"label": "general technical consulting", "terms": ["consulting", "stakeholder", "implementation"]}
+      ],
+      "important_required_gaps": [
+        {"label": "production Kubernetes", "terms": ["Kubernetes", "cluster"]},
+        {"label": "infrastructure leadership", "terms": ["infrastructure engineering teams", "people management", "team leadership"]},
+        {"label": "Linux networking and Terraform", "terms": ["Linux networking", "Terraform"]}
+      ],
+      "preferred_qualifications": [
+        {"label": "CKA certification", "terms": ["CKA", "Kubernetes certification"]}
+      ],
+      "prohibited_invented_claims": [
+        {"label": "Kubernetes administration", "terms": ["administered Kubernetes", "Kubernetes administrator"]},
+        {"label": "engineering management", "terms": ["managed infrastructure engineers", "engineering manager"]}
+      ],
+      "expected_judgment": "Transferable consulting skills are far outweighed by multiple core infrastructure and leadership requirements with no résumé evidence."
+    },
+    {
+      "case_id": "clinical_specialist_poor",
+      "role_family": "Clearly unsuitable specialist role",
+      "job_description": "Fictional Willow Health Research Center is hiring a Clinical Biostatistics Specialist. Required: a doctorate in biostatistics or epidemiology; five years designing clinical trials; advanced survival analysis; SAS programming; authorship of statistical analysis plans for regulated drug studies; and direct interaction with health authorities. The specialist will sign off on trial methods and mentor junior statisticians. Preferred: oncology research, peer-reviewed publications, and an active professional statistics society membership.",
+      "expected_fit_category": "poor",
+      "acceptable_score_range": [0, 20],
+      "acceptable_recommendation_categories": ["do_not_prioritize"],
+      "important_experience": [],
+      "important_required_gaps": [
+        {"label": "doctoral biostatistics education", "terms": ["doctorate", "biostatistics", "epidemiology"]},
+        {"label": "clinical-trial statistics", "terms": ["clinical trial", "survival analysis", "SAS"]},
+        {"label": "regulated statistical plans", "terms": ["statistical analysis plan", "health authorities"]}
+      ],
+      "preferred_qualifications": [
+        {"label": "oncology publications", "terms": ["oncology", "peer-reviewed publication"]}
+      ],
+      "prohibited_invented_claims": [
+        {"label": "doctoral credential", "terms": ["holds a doctorate", "PhD in biostatistics"]},
+        {"label": "clinical research", "terms": ["clinical trial experience", "clinical researcher"]}
+      ],
+      "expected_judgment": "The role requires specialist education and regulated clinical-statistics experience absent from the résumé; it should not be prioritized."
+    }
+  ]
+}

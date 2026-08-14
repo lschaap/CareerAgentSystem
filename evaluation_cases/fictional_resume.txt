@@ -1,0 +1,42 @@
+Jordan Rivera
+Fictional Implementation and Solutions Professional
+
+SUMMARY
+Implementation specialist with six years of fictional experience delivering business software and
+AI-enabled workflow projects. Comfortable translating stakeholder needs into configurations,
+integration plans, acceptance criteria, training, and post-launch support. Strong communicator who
+works across customer teams, product managers, and software engineers.
+
+EXPERIENCE
+Northstar Workflow Labs — Senior Implementation Consultant — 2022 to present
+- Led discovery workshops for mid-market customers and documented functional and technical needs.
+- Configured workflow software, mapped customer data, and coordinated REST API integrations.
+- Built Python scripts for data validation and migration, reducing fictional reconciliation time.
+- Managed testing, launch readiness, user training, and adoption for twelve customer deployments.
+- Created an evaluation checklist for an AI-assisted document-classification pilot and reviewed
+  model outputs with operations specialists.
+- Presented risks, tradeoffs, and delivery status to technical and nontechnical stakeholders.
+
+Blue Oak Software — Solutions Analyst — 2019 to 2022
+- Investigated customer issues using SQL, application logs, and API documentation.
+- Produced solution designs and implementation plans with engineering and customer-success teams.
+- Built dashboards to track adoption and support trends.
+- Facilitated product feedback sessions and translated recurring needs into feature proposals.
+
+FICTIONAL PROJECTS
+- Prototyped a retrieval-assisted internal knowledge search workflow using Python and documented
+  evaluation examples for answer relevance.
+- Designed a lightweight product-discovery study, interviewed eight fictional users, prioritized
+  findings, and drafted acceptance criteria for an administration feature.
+
+SKILLS
+Python, SQL, REST APIs, JSON, software configuration, data migration, requirements discovery,
+technical troubleshooting, user acceptance testing, customer training, stakeholder communication,
+implementation planning, AI-output evaluation, product discovery, and agile collaboration.
+
+EDUCATION
+Fictional State College — Bachelor of Science in Information Systems
+
+The candidate does not claim production machine-learning engineering, Kubernetes administration,
+licensed clinical practice, advanced statistics research, or people-management experience.
+
