@@ -140,6 +140,8 @@ Repetitions multiply the call count; the runner displays the total before starti
 Private reports go to ignored `data/evaluations/` and never enter application history.
 See [the evaluation guide](docs/EVALUATION.md) for the human rubric, cost controls, and
 limitations. Automated tests always use a mock provider and consume no Gemini quota.
+The sanitized [v0.2 baseline results](docs/EVALUATION_RESULTS_V0.2.md) summarize the
+first six-case evaluation without publishing raw model responses.
 
 ## Local data and privacy
 
